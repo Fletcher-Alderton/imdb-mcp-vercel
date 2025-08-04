@@ -42,26 +42,26 @@ export default function Home() {
           </div>
 
           {/* API Key Section */}
-          <div className="grid grid-cols-2 border-b-4 border-black">
-            <div className="space-y-6 p-12 border-r-4 border-black">
-              <h3 className="text-2xl font-bold text-black">Get OMDB API Key</h3>
-              <p className="text-gray-600">
-                You need a free OMDB API key before deploying. The process is simple and requires no credit card.
-              </p>
-              <div className="space-y-4">
-                <div className="text-sm text-gray-600 space-y-2">
-                  <div>1. Visit omdbapi.com</div>
-                  <div>2. Click "Get API Key"</div>
-                  <div>3. Check your email</div>
-                  <div>4. Copy the key</div>
+          <div className="border-b-4 border-black">
+            <div className="max-w-4xl mx-auto flex items-center justify-center p-12">
+              <div className="space-y-6">
+                <h3 className="text-2xl font-bold text-black">Get OMDB API Key</h3>
+                <p className="text-gray-600">
+                  You need a free OMDB API key before deploying. <br /> The process is simple and requires no credit card.
+                </p>
+                <div className="space-y-4">
+                  <div className="text-sm text-gray-600 space-y-2">
+                    <div>1. Visit omdbapi.com</div>
+                    <div>2. Click "Get API Key"</div>
+                    <div>3. Check your email</div>
+                    <div>4. Copy the key</div>
+                  </div>
+                  <Button className="bg-black text-white hover:bg-gray-800 border-0 px-8 py-3 rounded-none hover:cursor-pointer">
+                    <Key className="w-4 h-4 mr-2" />
+                    Get Free API Key
+                  </Button>
                 </div>
-                <Button className="bg-black text-white hover:bg-gray-800 border-0 px-8 py-3 rounded-none hover:cursor-pointer">
-                  <Key className="w-4 h-4 mr-2" />
-                  Get Free API Key
-                </Button>
               </div>
-            </div>
-            <div className="p-12">
             </div>
           </div>
 
