@@ -1,7 +1,11 @@
 {
-  "name": "imdb-mcp-vercel",
+  "name": "imdb-mcp-vercel-server",
   "version": "0.1.0",
   "private": true,
+  "description": "A production-ready Model Context Protocol server for IMDb data, deployable on Vercel with OMDB integration",
+  "keywords": ["imdb", "mcp", "model-context-protocol", "movie-api", "omdb", "vercel", "api"],
+  "author": "IMDb MCP Team",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
