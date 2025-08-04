@@ -1,18 +1,13 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { 
-  Play, 
   Zap, 
-  Code, 
-  Database, 
-  Globe, 
   Github, 
-  CheckCircle,
-  Key,
-  ArrowRight
+  Key
 } from "lucide-react";
+
+// Enable ISR with 24-hour revalidation
+export const revalidate = 86400; // 24 hours in seconds
 
 export default function Home() {
   return (
@@ -51,7 +46,7 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="text-sm text-gray-600 space-y-2">
                   <div>1. Visit omdbapi.com</div>
-                  <div>2. Click "Get API Key"</div>
+                  <div>2. Click &quot;Get API Key&quot;</div>
                   <div>3. Check your email</div>
                   <div>4. Copy the key</div>
                 </div>
